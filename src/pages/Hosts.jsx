@@ -62,18 +62,18 @@ const Hosts = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="order-2 lg:order-1 animate-fade-in fade-in-delay-2">
                             <h2 className="text-4xl md:text-5xl mb-2">Chad Morton</h2>
-                            <h3 className="text-2xl text-accent-secondary font-medium mb-6">Co-Host, Coach & Connector</h3>
+                            <h3 className="text-2xl text-accent-secondary font-medium mb-6">Entrepreneur • Filmmaker • Real Estate Advisor • CEO, SMASH Entertainment</h3>
                             <p className="text-lg text-text-secondary mb-6 leading-relaxed">
-                                Chad Morton is a former NFL running back and return specialist who played for multiple teams and later transitioned into coaching. With experience on both sides of the game, Chad brings sharp insight, humor, and a unique perspective to every conversation.
+                                Chad Morton is a multifaceted creator shaping the future of entertainment and real estate. From top‑tier real estate advisor and co‑founder of Maverick Realty, to award‑winning filmmaker behind What Death Leaves Behind (Sundance) and The Realtor (Apple TV), Chad brings a rare blend of business, storytelling, and vision.
                             </p>
                             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                Together, Gary and Chad create a dynamic, authentic, and powerful environment where legends feel comfortable opening up—and fans feel like they’re in the room.
+                                Now, as co‑host of The NFL Legend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
                             </p>
 
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="glass p-4 rounded-xl flex items-center col-span-2 sm:col-span-1">
                                     <Shield size={24} className="text-accent-primary mr-3 text-shrink-0 min-w-max" />
-                                    <span className="font-bold">Former NFL RB & Coach</span>
+                                    <span className="font-bold">Multifaceted Creator</span>
                                 </div>
                             </div>
                         </div>

@@ -168,9 +168,9 @@ const Home = () => {
                                     <img src="/chad.webp" alt="Chad Morton" className="w-full h-full object-cover" />
                                 </div>
                                 <h3 className="text-3xl font-black mb-2">Chad Morton</h3>
-                                <p className="text-accent-secondary font-bold tracking-wide uppercase text-sm mb-6">Former NFL RB & Coach</p>
+                                <p className="text-accent-secondary font-bold tracking-wide uppercase text-sm mb-6">Entrepreneur • Filmmaker • Real Estate Advisor</p>
                                 <p className="text-text-secondary leading-relaxed mb-8 flex-grow">
-                                    Former NFL running back, return specialist, and seasoned coach, Chad Morton brings sharp insight, humor, and a deep understanding of the game and the people who play it.
+                                    Chad Morton is a multifaceted creator shaping the future of entertainment and real estate. From top‑tier real estate advisor and co‑founder of Maverick Realty, to award‑winning filmmaker, Chad brings a rare blend of business, storytelling, and vision. Now, as co‑host of The NFL Legend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
                                 </p>
                             </div>
                         </div>
