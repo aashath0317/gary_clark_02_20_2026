@@ -26,8 +26,8 @@ const Hosts = () => {
                 <div className="container-custom">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="relative rounded-3xl overflow-hidden glass border border-glass-border shadow-2xl group animate-fade-in">
-                            <div className="aspect-[4/5] bg-zinc-900 flex items-center justify-center">
-                                <span className="text-zinc-600 font-bold uppercase tracking-widest">[Image: Gary Clark]</span>
+                            <div className="aspect-[4/5] bg-zinc-900 flex items-center justify-center overflow-hidden">
+                                <img src="/gary_clark.webp" alt="Gary Clark - Super Bowl Champion & Host" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             </div>
                         </div>
 
@@ -79,8 +79,8 @@ const Hosts = () => {
                         </div>
 
                         <div className="order-1 lg:order-2 relative rounded-3xl overflow-hidden glass border border-glass-border shadow-2xl group animate-fade-in fade-in-delay-1">
-                            <div className="aspect-[4/5] bg-zinc-900 flex items-center justify-center">
-                                <span className="text-zinc-600 font-bold uppercase tracking-widest">[Image: Chad Morton]</span>
+                            <div className="aspect-[4/5] bg-zinc-900 flex items-center justify-center overflow-hidden">
+                                <img src="/chad.webp" alt="Chad Morton - Co-Host, Coach & Connector" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             </div>
                         </div>
                     </div>

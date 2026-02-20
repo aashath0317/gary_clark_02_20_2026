@@ -150,6 +150,9 @@ const Home = () => {
                         <div className="glass rounded-3xl p-8 lg:p-12 relative overflow-hidden group">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-accent-primary/5 rounded-full blur-3xl -mr-20 -mt-20 transition-all group-hover:bg-accent-primary/10"></div>
                             <div className="relative z-10 flex flex-col h-full">
+                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-primary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(239,68,68,0.2)]">
+                                    <img src="/gary_clark.webp" alt="Gary Clark" className="w-full h-full object-cover" />
+                                </div>
                                 <h3 className="text-3xl font-black mb-2">Gary Clark</h3>
                                 <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">2X Super Bowl Champion</p>
                                 <p className="text-text-secondary leading-relaxed mb-8 flex-grow">
@@ -161,6 +164,9 @@ const Home = () => {
                         <div className="glass rounded-3xl p-8 lg:p-12 relative overflow-hidden group">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-accent-secondary/5 rounded-full blur-3xl -mr-20 -mt-20 transition-all group-hover:bg-accent-secondary/10"></div>
                             <div className="relative z-10 flex flex-col h-full">
+                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-secondary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(59,130,246,0.2)]">
+                                    <img src="/chad.webp" alt="Chad Morton" className="w-full h-full object-cover" />
+                                </div>
                                 <h3 className="text-3xl font-black mb-2">Chad Morton</h3>
                                 <p className="text-accent-secondary font-bold tracking-wide uppercase text-sm mb-6">Former NFL RB & Coach</p>
                                 <p className="text-text-secondary leading-relaxed mb-8 flex-grow">
