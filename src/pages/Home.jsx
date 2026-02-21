@@ -154,10 +154,18 @@ const Home = () => {
                                     <img src="/gary_clark.webp" alt="Gary Clark" className="w-full h-full object-cover" />
                                 </div>
                                 <h3 className="text-3xl font-black mb-2">Gary Clark</h3>
-                                <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">2X Super Bowl Champion</p>
-                                <p className="text-text-secondary leading-relaxed mb-8 flex-grow">
-                                    Two-time Super Bowl Champion, four-time Pro Bowler, and one of the toughest wide receivers to ever play the game, Gary Clark brings his on-field legacy and off-field leadership to every episode.
-                                </p>
+                                <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">Winner SBXXII - SBXXVI</p>
+                                <div className="text-text-secondary leading-relaxed mb-8 flex-grow flex flex-col gap-4">
+                                    <p className="font-semibold text-white/90">
+                                        Two-Time Super Bowl Champion, Three-Time All Pro, Four-Time Pro Bowler, Eight-Time All Madden Team, Member of The All-Madden All-Time Super Bowl Team, Member of The 70 Greatest Redskins of All-Time, Member of The Washington Redskins Ring of Fame, Member of The Washington DC Sports Hall of Fame, Pro-Football Hall of Fame Nominee and one of the toughest wide receivers to ever play the game!
+                                    </p>
+                                    <p>
+                                        Two-time Super Bowl Champion, four-time Pro Bowler, and one of the toughest wide receivers to ever play the game, Gary Clark brings his on-field legacy and off-field leadership to every episode.
+                                    </p>
+                                    <p>
+                                        Gary Clark brings his on-field legacy and off-field leadership and direction to every episode and a true appreciation for every fan who watches the game he loves!
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
