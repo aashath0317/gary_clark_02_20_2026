@@ -154,16 +154,19 @@ const Home = () => {
                                     <img src="/gary_clark.webp" alt="Gary Clark" className="w-full h-full object-cover" />
                                 </div>
                                 <h3 className="text-3xl font-black mb-2">Gary Clark</h3>
-                                <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">Winner SBXXII - SBXXVI</p>
+                                <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">SBXXII - SBXXVI Winner & Host</p>
                                 <div className="text-text-secondary leading-relaxed mb-8 flex-grow flex flex-col gap-4">
                                     <p className="font-semibold text-white/90">
-                                        Two-Time Super Bowl Champion, Three-Time All Pro, Four-Time Pro Bowler, Eight-Time All Madden Team, Member of The All-Madden All-Time Super Bowl Team, Member of The 70 Greatest Redskins of All-Time, Member of The Washington Redskins Ring of Fame, Member of The Washington DC Sports Hall of Fame, Pro-Football Hall of Fame Nominee and one of the toughest wide receivers to ever play the game!
+                                        Winner SBXXII - SBXXVI
+                                    </p>
+                                    <p className="font-semibold text-white/90">
+                                        2X Super Bowl Champion, 2X Team MVP, 3X All Pro, 4X Pro Bowler, 8X All Madden Team, Member of The All-Madden All-Time Super Bowl Team, Member of The 70 Greatest Redskins of All-Time, Member of The Washington Redskins Ring of Fame, Member of The Washington DC Sports Hall of Fame and a Pro-Football Hall of Fame Nominee.
                                     </p>
                                     <p>
-                                        Two-time Super Bowl Champion, four-time Pro Bowler, and one of the toughest wide receivers to ever play the game, Gary Clark brings his on-field legacy and off-field leadership to every episode.
+                                        This 10,000+ yards receiver was one of the most highlighted wide receivers of his era. Known for his toughness, heart and leadership, Clark brings the same type of intensity, motivation and authenticity to his show, The NFL Legend Experience.
                                     </p>
                                     <p>
-                                        Gary Clark brings his on-field legacy and off-field leadership and direction to every episode and a true appreciation for every fan who watches the game he loves!
+                                        For this show and all of the other shows on the horizon; Gary brings his on-field legacy and off-field leadership to each and every episode with a true appreciation for every fan who watches the game he loves! You will find that the 4X Pro-Bowler is a storyteller who uses his platform to honor the game, honor the fans and celebrate the legends who helped shape football history.
                                     </p>
                                 </div>
                             </div>

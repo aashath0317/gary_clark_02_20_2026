@@ -1,7 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Heart, Trophy, Star, Gift, Video, Mic, Calendar, Medal, ArrowRight } from 'lucide-react';
 
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwDPDxsLHrC63QqJ4zyChGl9NmFBit_fFnLLFTTv7G_R_7lsZ6xtnwloSxs4zeNchtOWg/exec';
+
 const Rewards = () => {
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        story: ''
+    });
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+        setSubmitStatus({ type: '', message: '' });
+
+        try {
+            const response = await fetch(SCRIPT_URL, {
+                method: 'POST',
+                body: JSON.stringify({ ...formData, formType: 'rewards' }),
+            });
+
+            if (response.ok) {
+                setSubmitStatus({ type: 'success', message: 'Your story has been submitted successfully! We will be in touch.' });
+                setFormData({ firstName: '', lastName: '', email: '', story: '' });
+            } else {
+                throw new Error('Network response was not ok');
+            }
+        } catch (error) {
+            setSubmitStatus({ type: 'error', message: 'There was an error submitting your story. Please try again later.' });
+            console.error('Error submitting form:', error);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
@@ -19,7 +59,7 @@ const Rewards = () => {
                         NFL Legend Experiences – <span className="text-gradient">For the Fans Who Live the Game</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed animate-fade-in fade-in-delay-2">
-                        This show is built around you—the fans. The people who wore the jerseys, screamed at the TV, froze in the stands, and never stopped believing. The NFL Legend Experience is our way of giving something back.
+                        This show is built around you—the fans. The people who wore the jerseys, screamed at the TV, froze in the stands, and never stopped believing. The NFL Legend Experience is our way of giving something back to those fans who Truly Live and Love The Game.
                     </p>
                 </div>
             </section>
@@ -158,30 +198,73 @@ const Rewards = () => {
                     </div>
 
                     <div className="glass p-8 md:p-12 rounded-3xl">
-                        <form className="space-y-6 flex flex-col">
+                        <form onSubmit={handleSubmit} className="space-y-6 flex flex-col">
+                            {submitStatus.type === 'error' && (
+                                <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-500 text-sm">
+                                    {submitStatus.message}
+                                </div>
+                            )}
+                            {submitStatus.type === 'success' && (
+                                <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/20 text-green-500 text-sm">
+                                    {submitStatus.message}
+                                </div>
+                            )}
+
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-zinc-400">First Name</label>
-                                    <input type="text" className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors" placeholder="John" />
+                                    <input
+                                        type="text"
+                                        name="firstName"
+                                        required
+                                        value={formData.firstName}
+                                        onChange={handleChange}
+                                        className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors"
+                                        placeholder="John"
+                                    />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-zinc-400">Last Name</label>
-                                    <input type="text" className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors" placeholder="Doe" />
+                                    <input
+                                        type="text"
+                                        name="lastName"
+                                        required
+                                        value={formData.lastName}
+                                        onChange={handleChange}
+                                        className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors"
+                                        placeholder="Doe"
+                                    />
                                 </div>
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-sm font-medium text-zinc-400">Email Address</label>
-                                <input type="email" className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors" placeholder="john@example.com" />
+                                <input
+                                    type="email"
+                                    name="email"
+                                    required
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors"
+                                    placeholder="john@example.com"
+                                />
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-sm font-medium text-zinc-400">Your NFL Story</label>
-                                <textarea rows="6" className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors resize-none" placeholder="Tell us about your favorite memory, connection to the game..."></textarea>
+                                <textarea
+                                    rows="6"
+                                    name="story"
+                                    required
+                                    value={formData.story}
+                                    onChange={handleChange}
+                                    className="w-full bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-colors resize-none"
+                                    placeholder="Tell us about your favorite memory, connection to the game..."
+                                ></textarea>
                             </div>
 
-                            <button type="button" className="btn btn-primary w-full py-4 text-lg">
-                                Submit Story
+                            <button type="submit" disabled={isSubmitting} className="btn btn-primary w-full py-4 text-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                                {isSubmitting ? 'Sending...' : 'Submit Story'}
                             </button>
                         </form>
                     </div>
