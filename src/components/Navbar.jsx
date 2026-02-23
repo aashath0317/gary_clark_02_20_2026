@@ -29,8 +29,12 @@ const Navbar = () => {
     return (
         <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'py-4 glass' : 'py-6 bg-transparent'}`}>
             <div className="container-custom flex justify-between items-center">
-                <Link to="/" className="z-50" onClick={() => setIsMobileMenuOpen(false)}>
-                    <span className="text-xl font-extrabold uppercase tracking-wider text-gradient">NFL Legend Experience</span>
+                <Link to="/" className={`z-50 flex items-center transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} onClick={() => setIsMobileMenuOpen(false)}>
+                    <img
+                        src="/National%20Football%20Legend%20Incorporated%20logo.png"
+                        alt="National Football Legend Incorporated Logo"
+                        className="h-20 md:h-28 w-auto object-contain"
+                    />
                 </Link>
 
                 {/* Desktop Nav */}
@@ -61,23 +65,22 @@ const Navbar = () => {
                 {/* Mobile Nav Overlay */}
                 <div className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 lg:hidden transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`} onClick={() => setIsMobileMenuOpen(false)}></div>
 
-                {/* Mobile Nav Menu */}
-                <div className={`fixed top-0 right-0 w-[80%] max-w-sm h-full glass z-40 p-8 pt-24 transition-transform duration-400 ease-in-out lg:hidden flex flex-col ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-                    <ul className="flex flex-col gap-6">
+                <div className={`fixed inset-0 w-full h-full bg-background/95 backdrop-blur-md z-40 p-8 transition-transform duration-400 ease-in-out lg:hidden flex flex-col items-center justify-center ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                    <ul className="flex flex-col gap-8 items-center w-full max-w-xs relative z-50">
                         {links.map((link) => (
                             <li key={link.name}>
                                 <Link
                                     to={link.path}
-                                    className={`text-xl font-medium transition-colors ${location.pathname === link.path ? 'text-text-primary' : 'text-text-secondary'}`}
+                                    className={`text-2xl font-medium transition-colors ${location.pathname === link.path ? 'text-text-primary' : 'text-text-secondary'}`}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {link.name}
                                 </Link>
                             </li>
                         ))}
-                        <li className="mt-4">
-                            <Link to="/watch" className="btn btn-primary w-full justify-center" onClick={() => setIsMobileMenuOpen(false)}>
-                                <Play size={18} className="mr-2" /> Watch Show
+                        <li className="mt-8 w-full">
+                            <Link to="/watch" className="btn btn-primary w-full justify-center text-lg py-3" onClick={() => setIsMobileMenuOpen(false)}>
+                                <Play size={24} className="mr-2" /> Watch Show
                             </Link>
                         </li>
                     </ul>
