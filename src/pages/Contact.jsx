@@ -57,7 +57,7 @@ const Contact = () => {
                         <span>Get In Touch</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 animate-fade-in fade-in-delay-1 max-w-4xl mx-auto">
-                        Contact The <span className="text-gradient">NFL Legend Experience</span>
+                        Contact The <span className="text-gradient">NFLegend Experience</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed animate-fade-in fade-in-delay-2">
                         For media, partnerships, bookings, fan stories, or general inquiries, we’d love to hear from you.
@@ -91,8 +91,8 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="glass p-6 rounded-2xl flex items-start border border-white/5 group hover:border-gold-level/50 transition-colors">
-                                    <div className="p-3 rounded-lg bg-gold-level/10 text-gold-level mr-4 group-hover:scale-110 transition-transform">
+                                <div className="glass p-6 rounded-2xl flex items-start border border-white/5 group hover:border-accent-primary/50 transition-colors">
+                                    <div className="p-3 rounded-lg bg-accent-primary/10 text-accent-primary mr-4 group-hover:scale-110 transition-transform">
                                         <Briefcase size={24} />
                                     </div>
                                     <div>
@@ -101,8 +101,8 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="glass p-6 rounded-2xl flex items-start border border-white/5 group hover:border-accent-secondary/50 transition-colors">
-                                    <div className="p-3 rounded-lg bg-accent-secondary/10 text-accent-secondary mr-4 group-hover:scale-110 transition-transform">
+                                <div className="glass p-6 rounded-2xl flex items-start border border-white/5 group hover:border-accent-primary/50 transition-colors">
+                                    <div className="p-3 rounded-lg bg-accent-primary/10 text-accent-primary mr-4 group-hover:scale-110 transition-transform">
                                         <MapPin size={24} />
                                     </div>
                                     <div>
@@ -118,7 +118,7 @@ const Contact = () => {
                             <div className="glass p-8 md:p-12 rounded-3xl border border-glass-border">
                                 <form onSubmit={handleSubmit} className="space-y-6">
                                     {submitStatus.type === 'error' && (
-                                        <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-500 text-sm">
+                                        <div className="p-4 rounded-xl bg-accent-primary/10 border border-accent-primary/20 text-accent-primary text-sm">
                                             {submitStatus.message}
                                         </div>
                                     )}

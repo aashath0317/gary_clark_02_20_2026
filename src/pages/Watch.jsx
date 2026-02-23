@@ -19,15 +19,15 @@ const Watch = () => {
                 </div>
 
                 <div className="container-custom relative z-20 text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 border border-red-600/20 text-red-500 font-medium tracking-wide text-sm mb-6 animate-fade-in">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-primary/10 border border-accent-primary/20 text-accent-primary font-medium tracking-wide text-sm mb-6 animate-fade-in">
                         <Youtube size={16} className="fill-current" />
                         <span>Watch Now</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 animate-fade-in fade-in-delay-1 max-w-4xl mx-auto">
-                        Watch The <span className="text-gradient">NFL Legend Experience</span>
+                        Watch The <span className="text-gradient">NFLegend Experience</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed animate-fade-in fade-in-delay-2">
-                        Catch every episode, every story, and every fan moment from The NFL Legend Experience – With Gary Clark.
+                        Catch every episode, every story, and every fan moment from The NFLegend Experience – With Gary Clark.
                     </p>
                 </div>
             </section>
@@ -39,8 +39,8 @@ const Watch = () => {
 
                     <div className="relative rounded-2xl overflow-hidden aspect-video border border-glass-border shadow-2xl max-w-5xl mx-auto mb-10 group bg-zinc-900">
                         <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center z-10 transition-colors group-hover:bg-black/40">
-                            <button className="w-24 h-24 rounded-full bg-red-600 flex items-center justify-center text-white shadow-[0_0_40px_rgba(220,38,38,0.6)] transition-transform group-hover:scale-110 mb-4">
-                                <Play size={40} className="ml-2 fill-current" />
+                            <button className="w-24 h-24 rounded-full bg-accent-primary text-black flex items-center justify-center shadow-[0_0_40px_rgba(201,243,29,0.6)] transition-transform group-hover:scale-110 mb-4">
+                                <Play size={40} className="ml-1 fill-current" />
                             </button>
                         </div>
                         <div className="w-full h-full flex flex-col items-center justify-center text-zinc-600">
@@ -67,7 +67,7 @@ const Watch = () => {
                             <div key={ep.id} className="glass rounded-2xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300 border border-white/5 flex flex-col h-full">
                                 <div className="aspect-video bg-zinc-800 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                        <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white">
+                                        <div className="w-12 h-12 rounded-full bg-accent-primary text-black flex items-center justify-center">
                                             <Play size={20} className="ml-1 fill-current" />
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ const Watch = () => {
                                 <div className="p-6 flex flex-col flex-grow">
                                     <h3 className="text-xl font-bold mb-2 text-white">{ep.title}</h3>
                                     <p className="text-text-secondary mb-6 text-sm flex-grow">{ep.desc}</p>
-                                    <a href="#" className="inline-flex items-center text-accent-primary hover:text-red-400 font-bold transition-colors text-sm uppercase tracking-wide mt-auto">
+                                    <a href="#" className="inline-flex items-center text-accent-primary hover:text-accent-primary font-bold transition-colors text-sm uppercase tracking-wide mt-auto">
                                         Watch on YouTube <ExternalLink size={16} className="ml-2" />
                                     </a>
                                 </div>
@@ -91,7 +91,7 @@ const Watch = () => {
             {/* Clips & Highlights Section */}
             <section className="section-padding relative">
                 <div className="container-custom text-center">
-                    <h2 className="text-4xl md:text-5xl mb-6">Clips & <span className="text-accent-secondary">Highlights</span></h2>
+                    <h2 className="text-4xl md:text-5xl mb-6">Clips & <span className="text-accent-primary">Highlights</span></h2>
                     <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
                         Short on time? Watch the biggest moments, funniest stories, and most emotional reveals in our highlight clips.
                     </p>

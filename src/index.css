@@ -34,16 +34,16 @@
     }
 
     .btn-primary {
-        @apply bg-accent-primary text-white hover:bg-accent-primary-hover hover:-translate-y-0.5;
-        box-shadow: 0 4px 14px 0 rgba(239, 68, 68, 0.39);
+        @apply bg-accent-primary text-black hover:bg-accent-primary-hover hover:-translate-y-0.5;
+        box-shadow: 0 4px 14px 0 rgba(201, 243, 29, 0.4);
     }
 
     .btn-primary:hover {
-        box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+        box-shadow: 0 6px 20px rgba(201, 243, 29, 0.5);
     }
 
-    .btn-secondary {
-        @apply bg-transparent text-white border border-border-color hover:bg-white/5 hover:border-white/20 hover:-translate-y-0.5;
+    .btn-primary-outline {
+        @apply border border-border-color hover:bg-white/5 hover:border-white/20 hover:-translate-y-0.5;
     }
 
     /* Glassmorphism */

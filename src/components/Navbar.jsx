@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link to="/" className={`z-50 flex items-center transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} onClick={() => setIsMobileMenuOpen(false)}>
                         <img
                             src="/National%20Football%20Legend%20Incorporated%20logo.png"
-                            alt="National Football Legend Incorporated Logo"
+                            alt="NFLegend Incorporated Logo"
                             className="h-20 md:h-28 w-auto object-contain"
                         />
                     </Link>
@@ -59,8 +59,8 @@ const Navbar = () => {
                     </ul>
 
                     {/* Mobile Toggle */}
-                    <button className="lg:hidden z-[100] p-2" onClick={toggleMenu} aria-label="Toggle menu">
-                        {isMobileMenuOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
+                    <button className="lg:hidden z-[100] p-1 border border-white rounded-md" onClick={toggleMenu} aria-label="Toggle menu">
+                        {isMobileMenuOpen ? <X size={32} className="text-white" /> : <Menu size={32} className="text-white" />}
                     </button>
                 </div>
             </nav>

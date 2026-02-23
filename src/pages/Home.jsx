@@ -18,34 +18,38 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="container-custom relative z-20 pt-20 text-center">
-                    <div className="animate-fade-in">
-                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight max-w-5xl mx-auto">
-                            The NFL Legend Experience – Where NFL Legends congregate together while also <span className="text-gradient">Rewarding and thanking NFL Fans</span>
+                <div className="container-custom relative z-20 pt-32 pb-20">
+                    <div className="animate-fade-in text-left max-w-6xl">
+                        <p className="text-xl sm:text-2xl md:text-4xl text-text-secondary mb-2 font-medium tracking-wide">Welcome to The</p>
+                        <h1 className="font-black text-[#c9f31d] mb-6 leading-[1.1] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-[80px]">
+                            NFLegend Experience
                         </h1>
-                        <p className="text-xl md:text-2xl text-text-secondary mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-                            Hosted by 2X Super Bowl Champion Gary Clark and co-host Chad Morton, The NFL Legend Experience brings NFL Legends, unforgettable stories, and once-in-a-lifetime fan experiences together in one powerful show.
+                        <p className="text-2xl md:text-4xl text-white mb-6 font-bold max-w-4xl leading-snug">
+                            Where NFLegends congregate together while also <span className="text-gradient">Rewarding and thanking NFL Fans</span>
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <p className="text-xl md:text-2xl text-text-secondary mb-10 max-w-3xl font-light leading-relaxed">
+                            Hosted by 2X Super Bowl Champion Gary Clark and co-host Chad Morton, The NFLegend Experience brings NFLegends, unforgettable stories, and once-in-a-lifetime fan experiences together in one powerful show.
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-6 justify-start items-center">
                             <a href="#" className="btn btn-primary text-lg px-8 py-4 w-full sm:w-auto">
                                 <Play size={24} className="mr-2 inline" /> Watch on YouTube
                             </a>
                             <Link to="/membership" className="btn btn-secondary text-lg px-8 py-4 w-full sm:w-auto">
-                                <Star size={24} className="mr-2 inline text-gold-level" /> Join Legends Circle
+                                <Star size={24} className="mr-2 inline text-accent-primary" /> Join Legends Circle
                             </Link>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* What is the NFL Legend Experience */}
+            {/* What is the NFLegend Experience */}
             <section className="section-padding bg-bg-secondary relative border-y border-border-color">
                 <div className="container-custom">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="animate-fade-in fade-in-delay-1">
-                            <h2 className="text-4xl md:text-5xl mb-6">More Than a Show. It’s an Experience.! <br /><span className="text-accent-primary">An NFL Legend Experience</span></h2>
+                            <h2 className="text-4xl md:text-5xl mb-6">More Than a Show. It’s an Experience.! <br /><span className="text-accent-primary">An NFLegend Experience</span></h2>
                             <p className="text-lg text-text-secondary mb-6 leading-relaxed">
-                                The NFL Legend Experience – With Gary Clark is a fan-first, story-driven show where NFL Legends sit down to share the moments that defined their careers—and then turn those moments into real rewards for real fans.
+                                The NFLegend Experience – With Gary Clark is a fan-first, story-driven show where NFLegends sit down to share the moments that defined their careers—and then turn those moments into real rewards for real fans.
                             </p>
                             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
                                 From exclusive interviews and behind-the-scenes stories to surprise appearances and VIP experiences, this is where the love of the game meets the people who live it.
@@ -57,8 +61,8 @@ const Home = () => {
 
                         <div className="relative rounded-2xl overflow-hidden aspect-video border border-glass-border shadow-2xl group animate-fade-in fade-in-delay-2">
                             <div className="absolute inset-0 bg-black/40 flex items-center justify-center z-10 transition-colors group-hover:bg-black/20">
-                                <button className="w-20 h-20 rounded-full bg-accent-primary/90 flex items-center justify-center text-white shadow-[0_0_30px_rgba(239,68,68,0.5)] transition-transform group-hover:scale-110">
-                                    <Play size={32} className="ml-2" />
+                                <button className="w-20 h-20 rounded-full bg-accent-primary text-black flex items-center justify-center shadow-[0_0_30px_rgba(201,243,29,0.5)] transition-transform group-hover:scale-110">
+                                    <Play size={32} className="ml-1" />
                                 </button>
                             </div>
                             <div className="w-full h-full bg-zinc-800 flex items-center justify-center">
@@ -78,8 +82,8 @@ const Home = () => {
                     </p>
                     <div className="relative rounded-2xl overflow-hidden aspect-video border border-glass-border shadow-2xl max-w-4xl mx-auto mb-10 group">
                         <div className="absolute inset-0 bg-black/20 flex items-center justify-center z-10 transition-colors group-hover:bg-transparent">
-                            <button className="w-24 h-24 rounded-full bg-red-600 flex items-center justify-center text-white shadow-[0_0_40px_rgba(220,38,38,0.6)] transition-transform group-hover:scale-110">
-                                <Play size={40} className="ml-2" />
+                            <button className="w-24 h-24 rounded-full bg-accent-primary text-black flex items-center justify-center shadow-[0_0_40px_rgba(201,243,29,0.6)] transition-transform group-hover:scale-110">
+                                <Play size={40} className="ml-1" />
                             </button>
                         </div>
                         <div className="w-full h-full bg-zinc-900 flex flex-col items-center justify-center text-zinc-600">
@@ -96,12 +100,12 @@ const Home = () => {
             {/* How Fans Get Rewarded */}
             <section className="section-padding relative">
                 <div className="container-custom text-center">
-                    <h2 className="text-4xl md:text-5xl mb-4">NFL Legends. Rewarding Real Fans. <span className="text-gradient">with Real Rewards.</span></h2>
+                    <h2 className="text-4xl md:text-5xl mb-4">NFLegends. Rewarding Real Fans. <span className="text-gradient">with Real Rewards.</span></h2>
                     <p className="subtext mb-16">Turning incredible stories into once-in-a-lifetime real rewards.</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                         <div className="card text-center group flex flex-col items-center">
-                            <div className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center mb-6 text-accent-secondary group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-16 h-16 rounded-full bg-accent-primary/10 flex items-center justify-center mb-6 text-accent-primary group-hover:scale-110 transition-transform duration-300">
                                 <Heart size={32} />
                             </div>
                             <h3 className="text-2xl mb-4">Fan Stories</h3>
@@ -116,7 +120,7 @@ const Home = () => {
                         </div>
 
                         <div className="card text-center group flex flex-col items-center">
-                            <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center mb-6 text-accent-primary group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-16 h-16 rounded-full bg-accent-primary/10 flex items-center justify-center mb-6 text-accent-primary group-hover:scale-110 transition-transform duration-300">
                                 <Users size={32} />
                             </div>
                             <h3 className="text-2xl mb-4">Legend Moments</h3>
@@ -124,7 +128,7 @@ const Home = () => {
                         </div>
 
                         <div className="card text-center group flex flex-col items-center">
-                            <div className="w-16 h-16 rounded-full bg-yellow-500/10 flex items-center justify-center mb-6 text-gold-level group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-16 h-16 rounded-full bg-yellow-500/10 flex items-center justify-center mb-6 text-accent-primary group-hover:scale-110 transition-transform duration-300">
                                 <Trophy size={32} />
                             </div>
                             <h3 className="text-2xl mb-4">Unforgettable Experiences</h3>
@@ -150,7 +154,7 @@ const Home = () => {
                         <div className="glass rounded-3xl p-8 lg:p-12 relative overflow-hidden group">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-accent-primary/5 rounded-full blur-3xl -mr-20 -mt-20 transition-all group-hover:bg-accent-primary/10"></div>
                             <div className="relative z-10 flex flex-col h-full">
-                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-primary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(239,68,68,0.2)]">
+                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-primary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(201,243,29,0.5)]">
                                     <img src="/gary_clark.webp" alt="Gary Clark" className="w-full h-full object-cover" />
                                 </div>
                                 <h3 className="text-3xl font-black mb-2">Gary Clark</h3>
@@ -163,7 +167,7 @@ const Home = () => {
                                         2X Super Bowl Champion, 2X Team MVP, 3X All Pro, 4X Pro Bowler, 8X All Madden Team, Member of The All-Madden All-Time Super Bowl Team, Member of The 70 Greatest Redskins of All-Time, Member of The Washington Redskins Ring of Fame, Member of The Washington DC Sports Hall of Fame and a Pro-Football Hall of Fame Nominee.
                                     </p>
                                     <p>
-                                        This 10,000+ yards receiver was one of the most highlighted wide receivers of his era. Known for his toughness, heart and leadership, Clark brings the same type of intensity, motivation and authenticity to his show, The NFL Legend Experience.
+                                        This 10,000+ yards receiver was one of the most highlighted wide receivers of his era. Known for his toughness, heart and leadership, Clark brings the same type of intensity, motivation and authenticity to his show, The NFLegend Experience.
                                     </p>
                                     <p>
                                         For this show and all of the other shows on the horizon; Gary brings his on-field legacy and off-field leadership to each and every episode with a true appreciation for every fan who watches the game he loves! You will find that the 4X Pro-Bowler is a storyteller who uses his platform to honor the game, honor the fans and celebrate the legends who helped shape football history.
@@ -173,15 +177,15 @@ const Home = () => {
                         </div>
 
                         <div className="glass rounded-3xl p-8 lg:p-12 relative overflow-hidden group">
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-accent-secondary/5 rounded-full blur-3xl -mr-20 -mt-20 transition-all group-hover:bg-accent-secondary/10"></div>
+                            <div className="absolute top-0 right-0 w-64 h-64 bg-accent-primary/5 rounded-full blur-3xl -mr-20 -mt-20 transition-all group-hover:bg-accent-primary/10"></div>
                             <div className="relative z-10 flex flex-col h-full">
-                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-secondary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(59,130,246,0.2)]">
+                                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-primary/30 mb-6 mx-auto shadow-[0_0_20px_rgba(201,243,29,0.2)]">
                                     <img src="/chad.webp" alt="Chad Morton" className="w-full h-full object-cover" />
                                 </div>
                                 <h3 className="text-3xl font-black mb-2">Chad Morton</h3>
-                                <p className="text-accent-secondary font-bold tracking-wide uppercase text-sm mb-6">Entrepreneur • Filmmaker • Real Estate Advisor</p>
+                                <p className="text-accent-primary font-bold tracking-wide uppercase text-sm mb-6">Entrepreneur • Filmmaker • Real Estate Advisor</p>
                                 <p className="text-text-secondary leading-relaxed mb-8 flex-grow">
-                                    Chad Morton is a multifaceted creator shaping the future of entertainment and real estate. From top‑tier real estate advisor and co‑founder of Maverick Realty, to award‑winning filmmaker, Chad brings a rare blend of business, storytelling, and vision. Now, as co‑host of The NFL Legend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
+                                    Chad Morton is a multifaceted creator shaping the future of entertainment and real estate. From top‑tier real estate advisor and co‑founder of Maverick Realty, to award‑winning filmmaker, Chad brings a rare blend of business, storytelling, and vision. Now, as co‑host of The NFLegend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
                                 </p>
                             </div>
                         </div>
@@ -199,28 +203,28 @@ const Home = () => {
             <section className="section-padding relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-zinc-900 -z-10"></div>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border-[1px] border-white/5 rounded-full -z-10"></div>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border-[1px] border-white/5 rounded-full -z-10 bg-gold-level/5 blur-3xl"></div>
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border-[1px] border-white/5 rounded-full -z-10 bg-accent-primary/5 blur-3xl"></div>
 
                 <div className="container-custom text-center relative z-10">
-                    <Star size={48} className="mx-auto text-gold-level mb-6" />
-                    <h2 className="text-4xl md:text-6xl font-black mb-6">Go From Viewer to <span className="text-gold-level">Insider</span></h2>
+                    <Star size={48} className="mx-auto text-accent-primary mb-6" />
+                    <h2 className="text-4xl md:text-6xl font-black mb-6">Go From Viewer to <span className="text-accent-primary">Insider</span></h2>
                     <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
                         Legends Circle is the inner community of fans, leaders, and game lovers who want more—more access, more stories, more experiences. Get early access to episodes, exclusive content, priority for fan experiences, and special invites.
                     </p>
-                    <Link to="/membership" className="btn bg-gold-level text-black hover:bg-yellow-400 hover:-translate-y-1 shadow-[0_4px_14px_rgba(251,191,36,0.3)] transition-all text-lg font-bold px-10 py-4 inline-flex items-center">
+                    <Link to="/membership" className="btn bg-accent-primary text-black hover:bg-accent-primary-hover hover:-translate-y-1 shadow-[0_4px_14px_rgba(201,243,29,0.3)] transition-all text-lg font-bold px-10 py-4 inline-flex items-center">
                         Join Legends Circle <ArrowRight className="ml-2" />
                     </Link>
                 </div>
             </section>
 
-            {/* Partner With the NFL Legend Experience */}
+            {/* Partner With the NFLegend Experience */}
             <section className="py-20 bg-accent-primary">
                 <div className="container-custom">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                         <div className="md:w-2/3">
-                            <h2 className="text-3xl md:text-4xl font-black text-white mb-4">Brands, Let's Build Legendary Experiences Together</h2>
-                            <p className="text-white/90 text-lg">
-                                From real estate and financial services to sports, leadership, and lifestyle brands, The NFL Legend Experience offers powerful partnership opportunities that connect your brand with passionate, loyal fans and a legacy-driven audience.
+                            <h2 className="text-3xl md:text-4xl font-black text-black mb-4">Brands, Let's Build Legendary Experiences Together</h2>
+                            <p className="text-black/90 text-lg">
+                                From real estate and financial services to sports, leadership, and lifestyle brands, The NFLegend Experience offers powerful partnership opportunities that connect your brand with passionate, loyal fans and a legacy-driven audience.
                             </p>
                         </div>
                         <div className="md:w-1/3 flex justify-end w-full">

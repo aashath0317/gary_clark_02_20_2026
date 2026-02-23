@@ -8,14 +8,14 @@ const Footer = () => {
             <div className="container-custom section-padding pb-16">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
                     <div className="flex flex-col">
-                        <h3 className="text-xl font-extrabold uppercase tracking-wider text-gradient mb-4">NFL Legend Experience</h3>
+                        <h3 className="text-xl font-extrabold uppercase tracking-wider text-gradient mb-4">NFLegend Experience</h3>
                         <p className="text-sm text-text-secondary mt-2">
-                            Where NFL Legends congregate together while rewriting the future of fan rewards. Hosted by Gary Clark & Chad Morton.
+                            Where NFLegends congregate together while rewriting the future of fan rewards. Hosted by Gary Clark & Chad Morton.
                         </p>
                         <div className="flex gap-4 mt-6">
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white transition-all duration-300 hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(239,68,68,0.4)]"><Youtube size={20} /></a>
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white transition-all duration-300 hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(239,68,68,0.4)]"><Instagram size={20} /></a>
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white transition-all duration-300 hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(239,68,68,0.4)]"><Twitter size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Youtube size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Instagram size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Twitter size={20} /></a>
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-glass-border text-sm gap-4 text-center md:text-left">
-                    <p className="text-text-secondary">&copy; {new Date().getFullYear()} The NFL Legend Experience. All rights reserved.</p>
+                    <p className="text-text-secondary">&copy; {new Date().getFullYear()} The NFLegend Experience. All rights reserved.</p>
                     <div className="flex gap-6">
                         <a href="#" className="text-text-secondary hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="text-text-secondary hover:text-white transition-colors">Terms of Service</a>

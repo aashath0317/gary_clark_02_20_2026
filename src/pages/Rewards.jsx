@@ -51,15 +51,15 @@ const Rewards = () => {
                 </div>
 
                 <div className="container-custom relative z-20 text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-secondary/10 border border-accent-secondary/20 text-accent-secondary font-medium tracking-wide text-sm mb-6 animate-fade-in">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-primary/10 border border-accent-primary/20 text-accent-primary font-medium tracking-wide text-sm mb-6 animate-fade-in">
                         <Heart size={16} className="fill-current" />
                         <span>Fan Rewards</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 animate-fade-in fade-in-delay-1 max-w-5xl mx-auto">
-                        NFL Legend Experiences – <span className="text-gradient">For the Fans Who Live the Game</span>
+                        NFLegend Experiences – <span className="text-gradient">For the Fans Who Live the Game</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed animate-fade-in fade-in-delay-2">
-                        This show is built around you—the fans. The people who wore the jerseys, screamed at the TV, froze in the stands, and never stopped believing. The NFL Legend Experience is our way of giving something back to those fans who Truly Live and Love The Game.
+                        This show is built around you—the fans. The people who wore the jerseys, screamed at the TV, froze in the stands, and never stopped believing. The NFLegend Experience is our way of giving something back to those fans who Truly Live and Love The Game.
                     </p>
                 </div>
             </section>
@@ -73,11 +73,11 @@ const Rewards = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
                         {/* Connecting Line (Desktop) */}
-                        <div className="hidden md:block absolute top-[60px] left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-accent-primary/20 via-white/20 to-gold-level/20 -z-10"></div>
+                        <div className="hidden md:block absolute top-[60px] left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-accent-primary/20 via-white/20 to-accent-primary/20 -z-10"></div>
 
                         {/* Step 1 */}
                         <div className="relative group text-center">
-                            <div className="w-32 h-32 mx-auto bg-black rounded-full border-4 border-accent-primary flex flex-col items-center justify-center mb-8 relative z-10 group-hover:scale-110 transition-transform shadow-[0_0_30px_rgba(239,68,68,0.3)]">
+                            <div className="w-32 h-32 mx-auto bg-black rounded-full border-4 border-accent-primary flex flex-col items-center justify-center mb-8 relative z-10 group-hover:scale-110 transition-transform shadow-[0_0_30px_rgba(201,243,29,0.5)]">
                                 <span className="text-4xl font-black text-accent-primary">1</span>
                             </div>
                             <h3 className="text-2xl font-bold mb-4">Share Your Story</h3>
@@ -99,12 +99,12 @@ const Rewards = () => {
 
                         {/* Step 3 */}
                         <div className="relative group text-center mt-12 md:mt-0">
-                            <div className="w-32 h-32 mx-auto bg-black rounded-full border-4 border-gold-level flex flex-col items-center justify-center mb-8 relative z-10 group-hover:scale-110 transition-transform shadow-[0_0_30px_rgba(251,191,36,0.3)]">
-                                <span className="text-4xl font-black text-gold-level">3</span>
+                            <div className="w-32 h-32 mx-auto bg-black rounded-full border-4 border-accent-primary flex flex-col items-center justify-center mb-8 relative z-10 group-hover:scale-110 transition-transform shadow-[0_0_30px_rgba(201,243,29,0.3)]">
+                                <span className="text-4xl font-black text-accent-primary">3</span>
                             </div>
                             <h3 className="text-2xl font-bold mb-4">Experience the Moment</h3>
                             <p className="text-text-secondary leading-relaxed max-w-xs mx-auto">
-                                From signed memorabilia to surprise calls and VIP invites, your story can turn into a once-in-a-lifetime NFL Legend Experience.
+                                From signed memorabilia to surprise calls and VIP invites, your story can turn into a once-in-a-lifetime NFLegend Experience.
                             </p>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ const Rewards = () => {
                         </div>
 
                         <div className="glass p-8 rounded-2xl flex items-start group hover:-translate-y-2 transition-transform border border-white/5">
-                            <div className="p-4 rounded-xl bg-accent-secondary/10 text-accent-secondary mr-6 group-hover:scale-110 transition-transform">
+                            <div className="p-4 rounded-xl bg-accent-primary/10 text-accent-primary mr-6 group-hover:scale-110 transition-transform">
                                 <Video size={32} />
                             </div>
                             <div>
@@ -151,12 +151,12 @@ const Rewards = () => {
                             </div>
                             <div>
                                 <h3 className="text-xl font-bold mb-2">Surprise live calls</h3>
-                                <p className="text-text-secondary text-sm">The phone rings, you pick it up, and an NFL Legend is on the line.</p>
+                                <p className="text-text-secondary text-sm">The phone rings, you pick it up, and an NFLegend is on the line.</p>
                             </div>
                         </div>
 
                         <div className="glass p-8 rounded-2xl flex items-start group hover:-translate-y-2 transition-transform border border-white/5">
-                            <div className="p-4 rounded-xl bg-gold-level/10 text-gold-level mr-6 group-hover:scale-110 transition-transform">
+                            <div className="p-4 rounded-xl bg-accent-primary/10 text-accent-primary mr-6 group-hover:scale-110 transition-transform">
                                 <Calendar size={32} />
                             </div>
                             <div>
@@ -181,7 +181,7 @@ const Rewards = () => {
                             </div>
                             <div>
                                 <h3 className="text-xl font-bold mb-2">Special recognition on the show</h3>
-                                <p className="text-text-secondary text-sm">Your story, featured directly on an episode of The NFL Legend Experience.</p>
+                                <p className="text-text-secondary text-sm">Your story, featured directly on an episode of The NFLegend Experience.</p>
                             </div>
                         </div>
                     </div>
@@ -194,13 +194,13 @@ const Rewards = () => {
                 <div className="container-custom max-w-3xl">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold mb-4">Submit Your Story</h2>
-                        <p className="text-text-secondary">Fill out the form below to be considered for an NFL Legend Experience.</p>
+                        <p className="text-text-secondary">Fill out the form below to be considered for an NFLegend Experience.</p>
                     </div>
 
                     <div className="glass p-8 md:p-12 rounded-3xl">
                         <form onSubmit={handleSubmit} className="space-y-6 flex flex-col">
                             {submitStatus.type === 'error' && (
-                                <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-500 text-sm">
+                                <div className="p-4 rounded-xl bg-accent-primary/10 border border-accent-primary/20 text-accent-primary text-sm">
                                     {submitStatus.message}
                                 </div>
                             )}

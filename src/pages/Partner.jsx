@@ -18,7 +18,7 @@ const Partner = () => {
                 "2 dedicated branded segments per season",
                 "1 custom commercial (30–60 seconds) produced by your team",
                 "1 exclusive interview or feature segment with sponsor executive",
-                "Sponsor-branded NFL Legend Experience giveaway",
+                "Sponsor-branded NFLegend Experience giveaway",
                 "Sponsor name included in fan reward announcements",
                 "Sponsor logo on fan experience certificates",
                 "Logo on website homepage (top tier placement)",
@@ -63,7 +63,7 @@ const Partner = () => {
                 "2 co-branded social media posts",
                 "2 general admission passes to a live taping"
             ],
-            color: "border-gold-level",
+            color: "border-accent-primary",
             bg: "bg-yellow-900/20"
         },
         {
@@ -102,7 +102,7 @@ const Partner = () => {
                 "1 verbal thank-you in a selected episode"
             ],
             color: "border-accent-primary",
-            bg: "bg-red-900/20"
+            bg: "bg-zinc-900"
         }
     ];
 
@@ -120,10 +120,10 @@ const Partner = () => {
                         <span>Partnerships</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 animate-fade-in fade-in-delay-1 max-w-4xl mx-auto">
-                        Partner With <span className="text-gradient">The NFL Legend Experience</span>
+                        Partner With <span className="text-gradient">The NFLegend Experience</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed animate-fade-in fade-in-delay-2">
-                        The NFL Legend Experience connects brands with a passionate, loyal, and legacy-driven audience of NFL fans, leaders, and decision-makers.
+                        The NFLegend Experience connects brands with a passionate, loyal, and legacy-driven audience of NFL fans, leaders, and decision-makers.
                     </p>
                 </div>
             </section>
@@ -142,12 +142,12 @@ const Partner = () => {
                             <p className="text-sm text-text-secondary">Authentic credibility built on years of real NFL experience.</p>
                         </div>
                         <div className="glass p-6 rounded-2xl text-center group hover:-translate-y-2 transition-transform">
-                            <Users size={32} className="mx-auto text-accent-secondary mb-4" />
+                            <Users size={32} className="mx-auto text-accent-primary mb-4" />
                             <h3 className="font-bold mb-2">Authentic Storytelling</h3>
                             <p className="text-sm text-text-secondary">Real conversations that resonate with fans on a deeper level.</p>
                         </div>
                         <div className="glass p-6 rounded-2xl text-center group hover:-translate-y-2 transition-transform">
-                            <Target size={32} className="mx-auto text-gold-level mb-4" />
+                            <Target size={32} className="mx-auto text-accent-primary mb-4" />
                             <h3 className="font-bold mb-2">Deep Fan Engagement</h3>
                             <p className="text-sm text-text-secondary">A highly interactive and invested community of core fans.</p>
                         </div>
@@ -228,7 +228,7 @@ const Partner = () => {
             {/* Contact CTA */}
             <section className="py-20 bg-accent-primary">
                 <div className="container-custom text-center">
-                    <h2 className="text-3xl md:text-4xl font-black text-white mb-8">Ready to Build a Legendary Partnership?</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-black mb-8">Ready to Build a Legendary Partnership?</h2>
                     <Link to="/contact" className="btn bg-black text-white hover:bg-zinc-900 border border-white/20 whitespace-nowrap px-10 py-4 text-lg inline-flex items-center">
                         Request Sponsorship Deck <ArrowRight className="ml-2" />
                     </Link>

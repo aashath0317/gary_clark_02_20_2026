@@ -42,7 +42,7 @@ const Hosts = () => {
                                     2X Super Bowl Champion, 2X Team MVP, 3X All Pro, 4X Pro Bowler, 8X All Madden Team, Member of The All-Madden All-Time Super Bowl Team, Member of The 70 Greatest Redskins of All-Time, Member of The Washington Redskins Ring of Fame, Member of The Washington DC Sports Hall of Fame and a Pro-Football Hall of Fame Nominee.
                                 </p>
                                 <p>
-                                    This 10,000+ yards receiver was one of the most highlighted wide receivers of his era. Known for his toughness, heart and leadership, Clark brings the same type of intensity, motivation and authenticity to his show, The NFL Legend Experience.
+                                    This 10,000+ yards receiver was one of the most highlighted wide receivers of his era. Known for his toughness, heart and leadership, Clark brings the same type of intensity, motivation and authenticity to his show, The NFLegend Experience.
                                 </p>
                                 <p>
                                     For this show and all of the other shows on the horizon; Gary brings his on-field legacy and off-field leadership to each and every episode with a true appreciation for every fan who watches the game he loves! You will find that the 4X Pro-Bowler is a storyteller who uses his platform to honor the game, honor the fans and celebrate the legends who helped shape football history.
@@ -51,11 +51,11 @@ const Hosts = () => {
 
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="glass p-4 rounded-xl flex items-center">
-                                    <Trophy size={24} className="text-gold-level mr-3 text-shrink-0 min-w-max" />
+                                    <Trophy size={24} className="text-accent-primary mr-3 text-shrink-0 min-w-max" />
                                     <span className="font-bold">2X Super Bowl Champion</span>
                                 </div>
                                 <div className="glass p-4 rounded-xl flex items-center">
-                                    <Star size={24} className="text-accent-secondary mr-3 text-shrink-0 min-w-max" />
+                                    <Star size={24} className="text-accent-primary mr-3 text-shrink-0 min-w-max" />
                                     <span className="font-bold">2X Team Offensive MVP</span>
                                 </div>
                             </div>
@@ -70,12 +70,12 @@ const Hosts = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="order-2 lg:order-1 animate-fade-in fade-in-delay-2">
                             <h2 className="text-4xl md:text-5xl mb-2">Chad Morton</h2>
-                            <h3 className="text-2xl text-accent-secondary font-medium mb-6">Entrepreneur • Filmmaker • Real Estate Advisor • CEO, SMASH Entertainment</h3>
+                            <h3 className="text-2xl text-accent-primary font-medium mb-6">Entrepreneur • Filmmaker • Real Estate Advisor • CEO, SMASH Entertainment</h3>
                             <p className="text-lg text-text-secondary mb-6 leading-relaxed">
                                 Chad Morton is a multifaceted creator shaping the future of entertainment and real estate. From top‑tier real estate advisor and co‑founder of Maverick Realty, to award‑winning filmmaker behind What Death Leaves Behind (Sundance) and The Realtor (Apple TV), Chad brings a rare blend of business, storytelling, and vision.
                             </p>
                             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                Now, as co‑host of The NFL Legend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
+                                Now, as co‑host of The NFLegend Experience and host of Selling Maverick, he’s redefining what it means to serve fans—on screen and at the settlement table.
                             </p>
 
                             <div className="grid grid-cols-2 gap-4">
@@ -98,9 +98,9 @@ const Hosts = () => {
             {/* CTA Section */}
             <section className="py-20 bg-accent-primary">
                 <div className="container-custom text-center">
-                    <h2 className="text-3xl md:text-4xl font-black text-white mb-8">Catch the Hosts in Action</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-black mb-8">Catch the Hosts in Action</h2>
                     <Link to="/watch" className="btn bg-black text-white hover:bg-zinc-900 border border-white/20 whitespace-nowrap px-10 py-4 text-lg inline-flex items-center">
-                        Watch The NFL Legend Experience <ArrowRight className="ml-2" />
+                        Watch The NFLegend Experience <ArrowRight className="ml-2" />
                     </Link>
                 </div>
             </section>
