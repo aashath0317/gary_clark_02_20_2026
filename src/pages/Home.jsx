@@ -22,7 +22,7 @@ const Home = () => {
                     <div className="animate-fade-in text-left max-w-6xl">
                         <p className="text-xl sm:text-2xl md:text-4xl text-text-secondary mb-2 font-medium tracking-wide">Welcome to The</p>
                         <h1 className="font-black text-[#c9f31d] mb-6 leading-[1.1] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-[80px]">
-                            NFLegend Experience
+                            National Football<br />Legend Experience
                         </h1>
                         <p className="text-2xl md:text-4xl text-white mb-6 font-bold max-w-4xl leading-snug">
                             Where NFLegends congregate together while also <span className="text-gradient">Rewarding and thanking NFL Fans</span>
