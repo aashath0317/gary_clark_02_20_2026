@@ -16,7 +16,7 @@ const Navbar = () => {
     }, []);
 
     const links = [
-        { name: 'Home', path: '/' },
+        { name: 'Home', path: '/home' },
         { name: 'About', path: '/about' },
         { name: 'Hosts', path: '/hosts' },
         { name: 'Rewards', path: '/rewards' },
@@ -30,7 +30,7 @@ const Navbar = () => {
         <>
             <nav className={`fixed top-0 left-0 w-full z-[100] transition-all duration-300 ${isScrolled ? 'py-4 glass' : 'py-6 bg-transparent'}`}>
                 <div className="container-custom flex justify-between items-center">
-                    <Link to="/" className={`z-50 flex items-center transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link to="/home" className={`z-50 flex items-center transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} onClick={() => setIsMobileMenuOpen(false)}>
                         <img
                             src="/National%20Football%20Legend%20Incorporated%20logo.png"
                             alt="NFLegend Incorporated Logo"
