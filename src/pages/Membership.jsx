@@ -5,7 +5,7 @@ const Membership = () => {
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
-            <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-white/10">
+            <section className="relative pt-10 pb-16 md:pt-32 md:pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-white/10">
                 <div className="absolute inset-0 z-0 bg-zinc-950">
                     <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-bg-primary z-10"></div>
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] rounded-full bg-accent-primary/10 blur-[100px] z-0 pointer-events-none"></div>

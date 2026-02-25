@@ -18,7 +18,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="container-custom relative z-20 pt-32 pb-20">
+                <div className="container-custom relative z-20 pt-10 md:pt-32 pb-20">
                     <div className="animate-fade-in text-left max-w-6xl">
                         <p className="text-xl sm:text-2xl md:text-4xl text-text-secondary mb-2 font-medium tracking-wide">Welcome to The</p>
                         <h1 className="font-black text-[#c9f31d] mb-6 leading-[1.1] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-[80px]">

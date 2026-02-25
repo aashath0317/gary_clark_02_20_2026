@@ -45,7 +45,7 @@ const Rewards = () => {
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
-            <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-white/10">
+            <section className="relative pt-10 pb-16 md:pt-32 md:pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-white/10">
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-primary/95 to-bg-primary z-10"></div>
                 </div>
