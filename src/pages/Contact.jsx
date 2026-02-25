@@ -86,18 +86,18 @@ const Contact = () => {
                                         <Mail size={24} />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold mb-1">General Inquiries</h3>
-                                        <p className="text-sm text-text-secondary">hello@nfllegendexperience.com</p>
+                                        <h3 className="font-bold mb-1">EMAIL US</h3>
+                                        <p className="text-sm text-text-secondary">For general inquiries and partnerships.<br />info@yourNFLexperience.com</p>
                                     </div>
                                 </div>
 
                                 <div className="glass p-6 rounded-2xl flex items-start border border-white/5 group hover:border-accent-primary/50 transition-colors">
                                     <div className="p-3 rounded-lg bg-accent-primary/10 text-accent-primary mr-4 group-hover:scale-110 transition-transform">
-                                        <Briefcase size={24} />
+                                        <Phone size={24} />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold mb-1">Business & Partnerships</h3>
-                                        <p className="text-sm text-text-secondary">partners@nfllegendexperience.com</p>
+                                        <h3 className="font-bold mb-1">CALL US</h3>
+                                        <p className="text-sm text-text-secondary">Mon-Fri from 9am to 6pm EST.<br />(703) 474 6796</p>
                                     </div>
                                 </div>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                                         <MapPin size={24} />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold mb-1">Studio</h3>
+                                        <h3 className="font-bold mb-1">STUDIO HEADQUATERS</h3>
                                         <p className="text-sm text-text-secondary">Los Angeles, CA<br />(By appointment only)</p>
                                     </div>
                                 </div>

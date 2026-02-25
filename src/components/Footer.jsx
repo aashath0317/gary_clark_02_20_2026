@@ -13,9 +13,9 @@ const Footer = () => {
                             Where NFLegends congregate together while rewriting the future of fan rewards. Hosted by Gary Clark & Chad Morton.
                         </p>
                         <div className="flex gap-4 mt-6">
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Youtube size={20} /></a>
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Instagram size={20} /></a>
-                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-black hover:bg-accent-primary hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)]"><Twitter size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-accent-primary/10 text-accent-primary hover:bg-accent-primary hover:text-black hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)] transition-all"><Youtube size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-accent-primary/10 text-accent-primary hover:bg-accent-primary hover:text-black hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)] transition-all"><Instagram size={20} /></a>
+                            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-accent-primary/10 text-accent-primary hover:bg-accent-primary hover:text-black hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(201,243,29,0.5)] transition-all"><Twitter size={20} /></a>
                         </div>
                     </div>
 
